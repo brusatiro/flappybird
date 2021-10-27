@@ -14,7 +14,7 @@
 </ul>
 
 <h2>🎮 Como jogar</h2>
-<p>Canos verdes aparecerão em variadas alturas e seu objetivo é desviar deles pressionando o teclado, pois o pássaro é constantemente puxadopara baixo. É possível pressionar rapidamente para subir mais, porém cuidado para não perder o controle. Cada vez que passar pelos canos, ganha 1 ponto.</p>
+<p>Canos verdes aparecerão em variadas alturas e seu objetivo é desviar deles pressionando o teclado, pois o pássaro é constantemente puxado para baixo. É possível pressionar rapidamente para subir mais, porém cuidado para não perder o controle. Cada vez que passar pelos canos, ganha 1 ponto.</p>
 <p>Para reiniciar o jogo basta atualizar a página.</p>
 
 <h2>🎬 Gif do site</h2>
