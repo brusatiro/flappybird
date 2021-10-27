@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nerko One', cursive;
+    letter-spacing: 5px;
+    font-size: 1.3rem;
+    margin: 0;
+    background-color: #0D262D;
+    color: #fff;
+    height: 100%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+[wm-flappy] {
+    position: relative;
+    border: 5px solid dodgerblue;
+    height: 80vh;
+    width: 90%;
+    margin: 15px;
+    background-color: deepskyblue;
+    overflow: hidden; /* qualquer coisa fora da div não vai aparecer */
+}
+
+.passaro {
+    position: absolute;
+    width: 60px;
+    left: calc(50% - 30px);
+}
+
+.par-de-barreiras {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.barreira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barreira .borda {
+    height: 30px;
+    width: 110px;
+    background: linear-gradient(90deg, #639302, #a5e82e);
+    border: 2px solid #000;
+}
+
+.barreira .corpo {
+    height: 80px;
+    width: 90px;
+    background: linear-gradient(90deg, #639302, #a5e82e);
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.progresso {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    z-index: 1;
+    text-shadow: 1px 1px 1px #000;
+}
